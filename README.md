@@ -8,6 +8,7 @@ Just drop your csv files from the `YYYYMMDD_positions.zip` file in the same fold
 - `filename_Year`
 - `filename_Month`
 - `filename_Day`
+
 in the script and run it.
 
 You can animate the air traffic using the Time Manager plugin in QGIS, [trackanimation](https://github.com/JoanMartin/trackanimation), [RunParticles](https://github.com/dal/RunParticles) or [GPX animator](https://github.com/zdila/gpx-animator).
