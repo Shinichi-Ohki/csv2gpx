@@ -18,7 +18,7 @@ cwd = os.getcwd()
 in_files = [f for f in listdir(cwd) if isfile(join(cwd, f))]
 # First argument is the name of the gpx file
 out_file = open(sys.argv[0]+".gpx","w") 
-out_file.write("<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>\n<gpx version=\"1.1\" creator=\"GPS Visualizer https://www.gpsvisualizer.com/\" xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd\">\n")
+out_file.write("<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>\n<gpx version=\"1.1\" creator=\"csv2gpx\" xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd\">\n")
 
 # Timezone from the local computer
 start_time = int(time.mktime(datetime.datetime(filename_Year, filename_Month, filename_Day, start_Flighttime, 0, 0).timetuple()))
