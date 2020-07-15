@@ -1,6 +1,6 @@
 # csv2gpx
 
-A simple script to convert [csv data from flightradar24.com](https://www.flightradar24.com/blog/using-the-new-flightradar24-kml-and-csv-export-tools/) to a gpx track for an animated dataviz.
+A simple script to convert Flightradar24 [csv files](https://www.flightradar24.com/blog/using-the-new-flightradar24-kml-and-csv-export-tools/) to a gpx track for an animated dataviz.
 
 Just drop your csv files from the `YYYYMMDD_positions.zip` file in the same folder, set up
 - `start_Flighttime`
